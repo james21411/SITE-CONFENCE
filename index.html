@@ -1626,20 +1626,16 @@
                             <button class="btn btn-outline-light" type="button">S'abonner</button>
                         </div>
                     </div>
-                </div>
-            </div>
-            
-            <!-- Visitor Statistics Button -->
-            <div class="row mt-4">
-                <div class="col-12">
-                    <h5 class="fw-bold mb-3"><i class="bi bi-bar-chart me-2"></i>Statistiques des Visiteurs</h5>
-                    <button class="btn btn-outline-light" id="statsButton" data-bs-toggle="modal" data-bs-target="#statsModal">
-                        <i class="bi bi-eye me-2"></i>Voir les Statistiques
-                    </button>
-                    <small class="text-light d-block mt-2">
-                        <i class="bi bi-info-circle me-1"></i>
-                        Total des consultations: <span id="totalVisits">0</span>
-                    </small>
+
+                    <!-- Visitor Statistics Widget -->
+                    <div class="mt-4">
+                        <h6 class="mb-3"><i class="bi bi-globe2 me-2"></i>Visiteurs</h6>
+                        <div class="visitor-counter-box bg-white bg-opacity-10 p-2 rounded text-center">
+                            <a href="https://info.flagcounter.com/h1iX">
+                                <img src="https://s05.flagcounter.com/count2/h1iX/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0" style="max-width: 100%;">
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
             
@@ -1713,48 +1709,7 @@
         </div>
     </div>
 
-    <!-- Visitor Statistics Modal -->
-    <div class="modal fade" id="statsModal" tabindex="-1" aria-labelledby="statsModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="statsModalLabel">
-                        <i class="bi bi-bar-chart me-2"></i>Statistiques des Visiteurs
-                    </h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <div class="row mb-4">
-                        <div class="col-12">
-                            <div class="card bg-light">
-                                <div class="card-body text-center">
-                                    <h3 class="text-primary mb-0" id="modalTotalVisits">0</h3>
-                                    <p class="text-muted mb-0">Total des consultations</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="row">
-                        <div class="col-12">
-                            <h6 class="mb-3">
-                                <i class="bi bi-globe me-2"></i>Visites par Pays
-                            </h6>
-                            <div id="modalCountryStats" class="country-stats-list">
-                                <!-- Statistics will be populated by JavaScript -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <small class="text-muted">
-                        <i class="bi bi-info-circle me-1"></i>
-                        Statistiques mises à jour en temps réel
-                    </small>
-                </div>
-            </div>
-        </div>
-    </div>
+
 
     <!-- Admin Login Modal - DISABLED -->
     <!-- <div class="modal fade" id="adminModal" tabindex="-1" aria-labelledby="adminModalLabel" aria-hidden="true">
