@@ -2,8 +2,8 @@
 
 // Define data at the beginning
 const conferenceData = {
-    "title": "Conférence Internationale sur les Avancées en Informatique et Technologies Éducatives",
-    "subtitle": "Pour le Développement Durable",
+    "title": "Conference on Advances in Information Technology and Educational Technologies for Sustainable Development",
+    "subtitle": "for Sustainable Development",
     "dates": "08-10 Juin 2026",
     "location": "Université de Yaoundé I, Yaoundé, Cameroun",
     "theme": "Innover dans le domaine de l'informatique et des technologies éducatives pour un avenir durable",
@@ -475,7 +475,7 @@ function createAdminPanel() {
                         </div>
                         <div class="form-group">
                             <label class="form-label">Description</label>
-                            <textarea class="form-control" id="siteDescription" rows="3">Conférence internationale sur les avancées en informatique et technologies éducatives pour le développement durable</textarea>
+                            <textarea class="form-control" id="siteDescription" rows="3">Conference on Advances in Information Technology and Educational Technologies for Sustainable Development</textarea>
                         </div>
                         <button type="submit" class="btn btn-admin">Enregistrer les Modifications</button>
                     </form>
