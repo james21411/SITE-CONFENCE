@@ -2,7 +2,7 @@
 
 // Define data at the beginning
 const conferenceData = {
-    "title": "Conference on Advances in Information Technology and Educational Technologies for Sustainable Development",
+    "title": "Conference on Advances in Computer Science and Educational Technologies for Sustainable Development",
     "subtitle": "for Sustainable Development",
     "dates": "08-10 Juin 2026",
     "location": "Université de Yaoundé I, Yaoundé, Cameroun",
@@ -429,7 +429,7 @@ function createAdminPanel() {
                         </div>
                         <div class="form-group">
                             <label class="form-label">Description</label>
-                            <textarea class="form-control" id="siteDescription" rows="3">Conference on Advances in Information Technology and Educational Technologies for Sustainable Development</textarea>
+                            <textarea class="form-control" id="siteDescription" rows="3">Conference on Advances in Computer Science and Educational Technologies for Sustainable Development</textarea>
                         </div>
                         <button type="submit" class="btn btn-admin">Enregistrer les Modifications</button>
                     </form>
