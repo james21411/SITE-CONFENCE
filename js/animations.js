@@ -329,7 +329,7 @@ class AnimationController {
         // Typewriter effect for main title with updated text
         const titleElement = document.querySelector('.hero-section h1 .text-reveal');
         if (titleElement) {
-            this.typewriterEffect(titleElement, 'Conference on Advances in Information Technology and Educational Technologies for Sustainable Development', 50);
+            this.typewriterEffect(titleElement, 'Conference on Advances in Computer Science and Educational Technologies for Sustainable Development', 50);
         }
 
         // Staggered text reveal for other elements
