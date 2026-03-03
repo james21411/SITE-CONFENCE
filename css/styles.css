@@ -2648,7 +2648,21 @@ h1, h2, h3, h4, h5, h6 {
         box-shadow: none !important;
         background: white !important;
     }
-    
+
+    .btn-submit {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.easychair-logo {
+    width: 180px;        /* Ajuste la taille si nécessaire */
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.easychair-logo:hover {
+    transform: scale(1.05);
+}
     @page {
         size: A4;
         margin: 1cm;
